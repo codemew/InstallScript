@@ -12,6 +12,8 @@ sudo apt-get -y install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev lib
 sudo apt install -y libssl-dev
 sudo apt install -y libgtest-dev
 sudo apt install -y ninja-build cmake git
+sudo apt install snap -y
+sudo snap install notepad-plus-plus
 sudo apt-get install -y wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
