@@ -303,12 +303,12 @@ open_codebase() {
 }
 
 
-#verify_files
-#get_codebase
-#install_sdk
-#install_dependencies
+verify_files
+get_codebase
+install_sdk
+install_dependencies
 install_toolchain
-#install_vsCode
-#init_vsCode
-#open_codebase
+install_vsCode
+init_vsCode
+open_codebase
 
